@@ -1,0 +1,31 @@
+.quoteBox {
+      position: relative;
+}
+
+#quote {
+      color: #ff1a3c;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 800;
+      font-family: Raleway;
+      margin: 0;
+      opacity: 0;
+      -webkit-animation: fadeinout 7s infinite forwards;
+      animation: fadeinout 7s infinite forwards;
+}
+@-webkit-keyframes fadeinout {
+      0%, 100% {
+            opacity: 0;
+      }
+      15%, 85% {
+            opacity: 1;
+      }
+}
+@keyframes fadeinout {
+      0%, 100% {
+            opacity: 0;
+      }
+      15%, 85% {
+            opacity: 1;
+      }
+}

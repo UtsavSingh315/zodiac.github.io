@@ -1,0 +1,329 @@
+<html>
+<head>
+      <title>Zodiac</title>
+      <style type="text/css" media="all">
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Poppins&family=Raleway:wght@200&display=swap');
+
+@import url("./styleSheets/style.css");
+@import url("./styleSheets/slider.css");
+@import url("./styleSheets/quiz.css");
+@import url("./styleSheets/quote.css");
+@import url("./styleSheets/loading.css");
+@import url("./styleSheets/about.css");
+@import url("./styleSheets/universalGrid.css");
+      </style>
+</head>
+
+<body>
+      <div class="port">
+            <h1>Please use portrait mode.<br><span>This website is for mobile devices only.<br><br></span><img src="./images/phone.svg" /></h1>
+      </div>
+      <div class="main">
+            <div id="vid" class="freg">
+
+                  <div id="nav">
+                        <div id="icon">
+                              <img id="logo" src="./images/logo.svg" />
+                        </div>
+                  </div>
+                  <div class="content">
+                        <h1 id="head">Z<span class="o">ødiac</span><span class="dot">.</span></h1>
+                  </div>
+            </div>
+
+
+
+            <div class="freg" id="fr1">
+                  <div id="slFrame" style="width:95vw;">
+                        <div id="slRig" style="transform:translateX(-570vw);">
+                              <div class="slBox B01">
+                                    <img src="./images/Cap.svg" /><h2>CAPRICORN.</h2><p>
+                                          Twentyfirst December - Twentysecond January <br>Hardworking, Straightforward, Stubborn.
+                                    </p>
+                              </div>
+                              <div class="slBox B02">
+                                    <img src="./images/Aqu.svg" /><h2>AQUARIUS.</h2><p>
+                                          Twentyfirst January - Twentysecond February <br>Innovative, Admired, Eccentric.
+                                    </p>
+                              </div>
+                              <div class="slBox B03">
+                                    <img src="./images/Pis.svg" /><h2>PISCES.</h2><p>
+                                          Twentyfirst February - Twentysecond March <br>Free, Sensual, Sensitive.
+                                    </p>
+                              </div>
+                              <div class="slBox B04">
+                                    <img src="./images/Ari.svg" /><h2>ARIES.</h2><p>
+                                          Twentyfirst March - Twentysecond April <br>Brave, Independent, Impulsive.
+                                    </p>
+                              </div>
+                              <div class="slBox B05">
+                                    <img src="./images/Tau.svg" /><h2>TAURUS.</h2><p>
+                                          Twentyfirst April - Twentysecond May <br>Good Taste, Sensual, Down to Earth, Stubborn.
+                                    </p>
+                              </div>
+                              <div class="slBox B06">
+                                    <img src="./images/Gem.svg" /><h2>GEMINI.</h2><p>
+                                          Twentyfirst May - Twentysecond June <br>Dynamic, Many Talents, Likes Games.
+                                    </p>
+                              </div>
+                              <div class="slBox B00">
+                                    <h3 class="nute">use arrows<br>to move around</h3>
+                              </div>
+                              <div class="slBox B07">
+                                    <img src="./images/Can.svg" /><h2>CANCER.</h2><p>
+                                          Twentyfirst June - Twentysecond July <br>Sensitive, Friend-oriented, Practical.
+                                    </p>
+                              </div>
+                              <div class="slBox B08">
+                                    <img src="./images/Leo.svg" /><h2>LEO.</h2><p>
+                                          Twentyfirst July - Twentysecond August <br>Creative, Popular, Faithful.
+                                    </p>
+                              </div>
+                              <div class="slBox B09">
+                                    <img src="./images/Vir.svg" /><h2>VIRGO.</h2><p>
+                                          Twentyfirst August - Twentysecond September <br>Successful, Creative, Clever.
+                                    </p>
+                              </div>
+                              <div class="slBox B10">
+                                    <img src="./images/Lib.svg" /><h2>LIBRA.</h2><p>
+                                          Twentyfirst September - Twentysecond October <br>Irresistable, Adventurous, Indecisive.
+                                    </p>
+                              </div>
+                              <div class="slBox B11">
+                                    <img src="./images/Sco.svg" /><h2>SCORPIO.</h2><p>
+                                          Twentyfirst October - Twentysecond November <br>Self-reliant, Powerful, Dominent.
+                                    </p>
+                              </div>
+                              <div class="slBox B12">
+                                    <img src="./images/Sag.svg" /><h2>SAGITTARIUS.</h2><p>
+                                          Twentyfirst November - Twentysecond December <br>Open-minded, Loving, Insensitive.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                  <button class="slBtn" id="lBtn" type="button" onclick="lBtn()"><img src="./images/left.svg" /></button>
+                  <button class="slBtn" id="rBtn" type="button" onclick="rBtn()"><img src="./images/right.svg" /></button>
+            </div>
+            <div class="freg" id="fr2">
+                  <div class="result" id="res1">
+                        <h2>Wind Magic.</h2>
+                        <img src="./images/MagicStone1.jpg" />
+                  </div>
+                  <div class="result" id="res2">
+                        <h2>Fire Magic.</h2>
+                        <img src="./images/MagicStone2.jpg" />
+                  </div>
+                  <div class="result" id="res3">
+                        <h2>Water Magic</h2>
+                        <img src="./images/MagicStone3.jpg" />
+
+                  </div>
+                  <div class="result" id="res4">
+                        <h2>Dark Magic.</h2>
+                        <img src="./images/MagicStone4.jpg" />
+                  </div>
+                  <div class="result" id="res5">
+                        <h2>Earth Magic</h2>
+                        <img src="./images/MagicStone5.jpg" />
+
+                  </div>
+                  <div class="result" id="res6">
+                        <h2>Light Magic</h2>
+                        <img src="./images/MagicStone6.jpg" />
+
+                  </div>
+                  <div class="quiz" id="qzStart">
+                        <h1 id="queText">Check Your Magic Element.</h1>
+                        <button class="qzBtn" onclick="next()">START</button>
+                  </div>
+                  <div class="quiz" id="qzQues1">
+                        <h1 class="Ques">Select a weapon which you can yield relentlessly.</h1>
+                        <label>
+                              <input type="radio" name="Ans1" id="" onclick="getValue1()" value="3">
+                              <div class="fkRadio"></div>
+                              Bow and Arrow
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans1" id="" onclick="getValue1()" value="5">
+                              <div class="fkRadio"></div>
+                              Spear
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans1" id="" onclick="getValue1()" value="7">
+                              <div class="fkRadio"></div>
+                              A pair of Quick Swords
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans1" id="" onclick="getValue1()" value="11">
+                              <div class="fkRadio"></div>
+                              Katana
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans1" id="" onclick="getValue1()" value="13">
+                              <div class="fkRadio"></div>
+                              Long Sword
+                        </label><br /><h3 id="pls">*please select an option first!</h3>
+                        <button class="qzBtn" onclick="next1()">NEXT</button>
+                  </div>
+                  <div class="quiz" id="qzQues2">
+                        <h1 class="Ques">Which special ability you posses?</h1>
+                        <label>
+                              <input type="radio" name="Ans2" id="" onclick="getValue2()" value="5">
+                              <div class="fkRadio"></div>
+                              Attack Reflection
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans2" id="" onclick="getValue2()" value="13">
+                              <div class="fkRadio"></div>
+                              Turtle Defence
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans2" id="" onclick="getValue2()" value="7">
+                              <div class="fkRadio"></div>
+                              Super Speed
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans2" id="" onclick="getValue2()" value="3">
+                              <div class="fkRadio"></div>
+                              Healing
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans2" id="" onclick="getValue2()" value="11">
+                              <div class="fkRadio"></div>
+                              Silent Steps
+                        </label><br /><h3 id="pls2">*please select an option first!</h3>
+                        <button class="qzBtn" onclick="next2()">NEXT</button>
+                  </div>
+                  <div class="quiz" id="qzQues3">
+                        <h1 class="Ques">What is your Race?</h1>
+                        <label>
+                              <input type="radio" name="Ans3" id="" onclick="getValue3()" value="5">
+                              <div class="fkRadio"></div>
+                              Werewolf
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans3" id="" onclick="getValue3()" value="3">
+                              <div class="fkRadio"></div>
+                              Elf
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans3" id="" onclick="getValue3()" value="7">
+                              <div class="fkRadio"></div>
+                              Merman
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans3" id="" onclick="getValue3()" value="13">
+                              <div class="fkRadio"></div>
+                              Giant
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans3" id="" onclick="getValue3()" value="11">
+                              <div class="fkRadio"></div>
+                              Nocturn
+                        </label><br />
+                        <h3 id="pls3">*please select an option first!</h3>
+                        <button class="qzBtn" onclick="next3()">NEXT</button>
+                  </div>
+                  <div class="quiz" id="qzQues4">
+                        <h1 class="Ques">Select your desired roll</h1>
+                        <label>
+                              <input type="radio" name="Ans4" id="" onclick="getValue4()" value="11">
+                              <div class="fkRadio"></div>
+                              Assassin
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans4" id="" onclick="getValue4()" value="3">
+                              <div class="fkRadio"></div>
+                              Healer
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans4" id="" onclick="getValue4()" value="7">
+                              <div class="fkRadio"></div>
+                              Enchanter
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans4" id="" onclick="getValue4()" value="5">
+                              <div class="fkRadio"></div>
+                              Warrior
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans4" id="" onclick="getValue4()" value="13">
+                              <div class="fkRadio"></div>
+                              Tank
+                        </label><br />
+                        <h3 id="pls4">*please select an option first!</h3>
+                        <button class="qzBtn" onclick="next4()">NEXT</button>
+                  </div>
+                  <div class="quiz" id="qzQues5">
+                        <h1 class="Ques">Choose one deity</h1>
+                        <label>
+                              <input type="radio" name="Ans5" id="" onclick="getValue5()" value="3">
+                              <div class="fkRadio"></div>
+                              Eternal Pegasus
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans5" id="" onclick="getValue5()" value="5">
+                              <div class="fkRadio"></div>
+                              Vermillion Bird
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans5" id="" onclick="getValue5()" value="13">
+                              <div class="fkRadio"></div>
+                              Black Tortoise
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans5" id="" onclick="getValue5()" value="11">
+                              <div class="fkRadio"></div>
+                              White Tiger
+                        </label><br />
+                        <label>
+                              <input type="radio" name="Ans5" id="" onclick="getValue5()" value="7">
+                              <div class="fkRadio"></div>
+                              Azure Dragon
+                        </label><br />
+                        <h3 id="pls5">*please select an option first!</h3>
+                        <button class="qzBtn" onclick="next5()">SUBMIT</button>
+                  </div>
+            </div>
+            <div class="freg" id="fr3">
+                  <div class="quoteBox">
+                        <br><h1 id="quote">No matter how dark<br>the world is If you shine,<br><br>there will be a light</h1>
+                  </div>
+                  <div class="qLod">
+                        <div class="loadingContainer">
+                              <div class="loadingBox lB1"></div>
+                              <div class="loadingBox lB2"></div>
+                              <div class="loadingBox lB3"></div>
+                              <div class="loadingBox lB4"></div>
+                        </div>
+                  </div>
+            </div>
+            <div class="freg" id="fr4">
+                  <div class="abtMe">
+                        <img class="meImg" src="./images/me.jpg" />
+                        <h4 class="mNam">Utsav Singh<br><span id="mAbt">Developer</span> </h4><br />
+                        <center><img class="zImg" src="./images/zodiac.svg" /></center>
+
+                  </div>
+            </div>
+
+      </div>
+
+      <script type="text/javascript" charset="utf-8">
+            setInterval(check, 500);
+            function check() {
+                  if (screen.availWidth > screen.availHeight) {
+                        document.getElementsByClassName('port')[0].style.display = "initial";
+                        document.getElementsByClassName('main')[0].style.display = "none";
+                  } else {
+                        document.getElementsByClassName('port')[0].style.display = "none";
+                        document.getElementsByClassName('main')[0].style.display = "grid";
+                  };
+            };
+      </script>
+      <script src="./scripts/slider.js"></script>
+      <script src="./scripts/quiz.js"></script>
+      <script src="./scripts/quote.js"></script>
+      <script src="./scripts/abtMe.js"></script>
+</body>
+</html>

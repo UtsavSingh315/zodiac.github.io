@@ -1,0 +1,161 @@
+.loadingContainer {
+      margin: 0;
+      position: relative;
+      z-index: 5;
+      left: 50%;
+      transform: translateX(-50%) rotate(-135deg);
+      width: 30vh;
+      height: 30vh;
+}
+
+.loadingBox {
+      position: absolute;
+      border: 0.8em solid White;
+      /* background: rgb(210, 210, 210); */
+      width: calc(200%/7);
+      height: calc(200%/7);
+}
+.lB1 {
+      border-radius: 0% 50% 0% 50%;
+      top: calc(100%/7);
+      left: calc(100%/7);
+      -webkit-animation: lB1 3s infinite forwards;
+      animation: lB1 3s infinite forwards;
+}
+.lB2 {
+      border-radius: 50% 50% 50% 0%;
+      top: calc(100%/7);
+      left: calc(400%/7);
+      -webkit-animation: lB1 3s infinite forwards;
+      animation: lB2 3s infinite forwards;
+}
+.lB3 {
+      border-radius: 50% 0% 50% 50%;
+      top: calc(400%/7);
+      left: calc(100%/7);
+      -webkit-animation: lB1 3s infinite forwards;
+      animation: lB3 3s infinite forwards;
+}
+.lB4 {
+      border-radius: 0% 50% 0% 50%;
+      border-color: #ff1a3c;
+      background: #Bff1a3c;
+      /*rgb(225, 50, 80)*/
+      top: calc(400%/7);
+      left: calc(400%/7);
+      -webkit-animation: lB1 3s infinite forwards;
+      animation: lB4 3s infinite forwards;
+}
+
+@-webkit-keyframes lB1 {
+      25% {
+            transform: translate(150%, 0px) rotate(90deg);
+      }
+      50% {
+            transform: translate(150%, 150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(0px, 150%) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@-webkit-keyframes lB2 {
+      25% {
+            transform: translate(0px, 150%) rotate(90deg);
+      }
+      50% {
+            transform: translate(-150%, 150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(-150%, 0px) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@-webkit-keyframes lB3 {
+      25% {
+            transform: translate(0px, -150%) rotate(90deg);
+      }
+      50% {
+            transform: translate(150%, -150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(150%, 0px) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@-webkit-keyframes lB4 {
+      25% {
+            transform: translate(-150%, 0px) rotate(90deg);
+      }
+      50% {
+            transform: translate(-150%, -150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(0px, -150%) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@keyframes lB1 {
+      25% {
+            transform: translate(150%, 0px) rotate(90deg);
+      }
+      50% {
+            transform: translate(150%, 150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(0px, 150%) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@keyframes lB2 {
+      25% {
+            transform: translate(0px, 150%) rotate(90deg);
+      }
+      50% {
+            transform: translate(-150%, 150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(-150%, 0px) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@keyframes lB3 {
+      25% {
+            transform: translate(0px, -150%) rotate(90deg);
+      }
+      50% {
+            transform: translate(150%, -150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(150%, 0px) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}
+@keyframes lB4 {
+      25% {
+            transform: translate(-150%, 0px) rotate(90deg);
+      }
+      50% {
+            transform: translate(-150%, -150%) rotate(180deg);
+      }
+      75% {
+            transform: translate(0px, -150%) rotate(270deg);
+      }
+      100% {
+            transform: translate(0px, 0px) rotate(360deg);
+      }
+}

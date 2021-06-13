@@ -1,0 +1,70 @@
+.main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: 'Area0' 'Area1' 'Area2' 'Area3' 'Area4';
+}
+#vid {
+      grid-area: Area0;
+      display: grid;
+      grid-template-rows: 15vh auto 2.5vh;
+      grid-template-columns: 2.5vh auto 2.5vh;
+}
+#nav {
+      grid-area: 1 / 1 / 2 / 4;
+}
+
+.content {
+      grid-area: 2 / 2 / 3 / 3;
+}
+#fr1 {
+      grid-area: Area1;
+      display: grid;
+      grid-template-rows: 2.5vw auto 5vh auto 2.5vw;
+      grid-template-columns: 2.5vw 10vw auto 10vw 2.5vw;
+}
+#slFrame {
+      grid-area: 2 / 2 / 5 / 5;
+}
+#lbtn {
+      grid-area: 3 / 1 / 4 / 3;
+}
+#rbtn {
+      grid-area: 3 / 4 / 4 / 6;
+}
+#fr2 {
+      grid-area: Area2;
+      display: grid;
+      grid-template-rows: 15vh auto 30vh 5vh;
+      grid-template-columns: 5vh auto 5vh;
+}
+.quiz {
+      grid-area: 2 / 2 / 4 / 3;
+}
+.result {
+      grid-area: 2 / 1 / 4 / 4;
+}
+
+
+#fr3 {
+      grid-area: Area3;
+      display: grid;
+      grid-template-rows: 2.5vh 64vh 31vh 2.5vh;
+      grid-template-columns: 2.5vh auto 2.5vh;
+}
+.quoteBox {
+      grid-area: 2 / 2 / 3 / 3;
+}
+.qLod {
+      grid-area: 3 / 2 / 4 / 3;
+}
+#fr4 {
+      grid-area: Area4;
+      display: grid;
+      grid-template-rows: 2.5vh auto 2.5vh;
+      grid-template-columns: 2.5vh auto 2.5vh;
+}
+
+.abtMe {
+      grid-area: 2 / 2 / 3 / 3;
+}

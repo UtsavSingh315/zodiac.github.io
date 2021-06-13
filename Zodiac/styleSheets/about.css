@@ -1,0 +1,40 @@
+.meImg {
+      width: 100%;
+      height: auto;
+      animation: fadeMe;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+      /* animation-fill-mode: forwards; */
+}
+.zImg {
+      position: absolute;
+      bottom: 3vh;
+      width: 25vw;
+      transform: translateX(-50%);
+
+}
+.mNam {
+      color: white;
+      font-family: Poppins;
+      font-size: 2em;
+      margin-top: 2.5vw;
+      margin-left: 5vw;
+      line-height: 1.2;
+}
+#mAbt {
+      color: #FF9b00;
+      font-family: Open Sans;
+      font-size: 0.5em;
+      font-style: italic;
+      font-weight: 600;
+      margin-top: -0.1em;
+      margin-left: 2vw;
+}
+@keyframes fadeMe {
+      0%, 100% {
+            opacity: 0;
+      }
+      20%, 80% {
+            opacity: 1;
+      }
+}

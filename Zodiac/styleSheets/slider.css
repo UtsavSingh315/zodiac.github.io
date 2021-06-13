@@ -1,0 +1,64 @@
+#slFrame {
+      width: 95vw;
+      overflow-x: hidden;
+      /* border-radius: 10px; */
+      box-sizing: border-box;
+}
+#slRig {
+      position: relative;
+      width: calc(570vw);
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      padding: 0;
+      margin: 0;
+      transition-duration: 1s;
+}
+.slBox {
+      background: #1a1a1a;
+      width: 95vw;
+      height: 100%;
+}
+.slBox > img {
+      width: 100%;
+      height: auto;
+}
+
+.slBox > h2 {
+      margin-left: 10vw;
+      margin-top: 10vh;
+      font-family: Poppins;
+      font-size: 1.5em;
+      color: #ff9b00;
+}
+.slBox > p {
+      margin-top: 5vh;
+      margin-bottom: 10vh;
+      margin-right: 10vw;
+      margin-left: 10vw;
+      font-family: Raleway;
+      font-size: 0.8em;
+      color: white;
+}
+
+.slBtn {
+      border: none;
+      background: #ffffff00;
+      z-index: 10;
+}
+.slBtn > img {
+      width: 12.5vw;
+}
+.B00 {
+      display: flex;
+      line-height: normal;
+      justify-content: center;
+      vertical-align: middle;
+}
+.B00 > h3 {
+      color: #ff9b00;
+      margin-top: 45vh;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 1.4em;
+}

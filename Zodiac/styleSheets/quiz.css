@@ -1,0 +1,211 @@
+.quiz {
+      position: relative;
+      height: 80vh;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 2s;
+      animation: fadein;
+      animation-duration: 2s;
+}
+
+.quiz > h1 {
+      position: relative;
+      font-family: Poppins;
+      font-size: 1.5em;
+}
+.quiz > h1 + label {
+      margin-top: 8em;
+}
+.quiz > label {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      padding: 0.1em;
+      margin-top: 1em;
+      margin-left: 5vw;
+      font-family: Poppins;
+      font-size: 1em;
+      font-weight: 500;
+}
+.quiz > label > input {
+      display: none;
+}
+.quiz > label > input:checked + .fkRadio::after {
+      transform: scale(1);
+      border-radius: 50%;
+}
+.quiz > label > input:checked + .fkRadio {
+      border-radius: 50%;
+}
+#pls {
+      display: none;
+      position: absolute;
+      bottom: 20%;
+      font-family: Poppins;
+      font-size: 1em;
+      color: #ff1a3c;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 1s;
+      animation: fadein;
+      animation-duration: 1s;
+}
+#pls2 {
+      display: none;
+      position: absolute;
+      bottom: 20%;
+      font-family: Poppins;
+      font-size: 1em;
+      color: #ff1a3c;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 1s;
+      animation: fadein;
+      animation-duration: 1s;
+}
+#pls3 {
+      display: none;
+      position: absolute;
+      bottom: 20%;
+      font-family: Poppins;
+      font-size: 1em;
+      color: #ff1a3c;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 1s;
+      animation: fadein;
+      animation-duration: 1s;
+}
+#pls4 {
+      display: none;
+      position: absolute;
+      bottom: 20%;
+      font-family: Poppins;
+      font-size: 1em;
+      color: #ff1a3c;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 1s;
+      animation: fadein;
+      animation-duration: 1s;
+}
+#pls5 {
+      display: none;
+      position: absolute;
+      bottom: 20%;
+      font-family: Poppins;
+      font-size: 1em;
+      color: #ff1a3c;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 1s;
+      animation: fadein;
+      animation-duration: 1s;
+}
+
+.fkRadio {
+      position: relative;
+      box-sizing: initial;
+      z-index: 20;
+      border: 0.2em solid #1a1a1a;
+      width: 0.7em;
+      height: 0.7em;
+      margin-right: 1em;
+      /* transform: rotate(45deg); */
+      transition-duration: 0.2s;
+
+      animation: rot360 infinite forwards;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+}
+.fkRadio::after {
+      content: "";
+      background: #1a1a1a;
+      width: 130%;
+      height: 130%;
+      display: block;
+      position: absolute;
+      top: -15%;
+      right: -15%;
+      transform: scale(0);
+      transition: transform 0.2s;
+}
+
+.qzBtn {
+      position: absolute;
+      left: 50%;
+      bottom: 10%;
+      background: #1a1a1a;
+      color: #ff9b00;
+      font-size: 0.8em;
+      font-family: Poppins;
+      /* margin-top: 15vh; */
+      border: none;
+      padding: 2vh;
+      width: 25vw;
+      transform: translateX(-50%);
+}
+#qzStart {
+      z-index: 1;
+      text-align: center;
+}
+
+#qzQues1 {
+      top: 0;
+      left: 0;
+      z-index: 2;
+      display: none;
+}
+#qzQues2 {
+      top: 0;
+      left: 0;
+      z-index: 4;
+      display: none;
+}
+#qzQues3 {
+      top: 0;
+      left: 0;
+      z-index: 6;
+      display: none;
+}
+#qzQues4 {
+      top: 0;
+      left: 0;
+      z-index: 8;
+      display: none;
+}
+#qzQues5 {
+      top: 0;
+      left: 0;
+      z-index: 10;
+      display: none;
+}
+.result {
+      display: none;
+      background: black;
+      z-index: 20;
+      -webkit-animation: fadein;
+      -webkit-animation-duration: 2s;
+      animation: fadein;
+      animation-duration: 2s;
+}
+.result > h2 {
+      margin-top: 10vh;
+      font-family: Poppins;
+      font-size: 1.5em;
+      color: #ff9b00;
+      text-align: center;
+}
+.result > img {
+      position: absolute;
+      left: 10vw;
+      width: 80vw;
+      height: auto;
+      align-self: center;
+
+}
+
+@-wbkit-keyframes rot360 {
+      100% {
+            transform: rotate(-450deg);
+      }
+}
+@keyframes rot360 {
+      100% {
+            transform: rotate(-450deg);
+      }
+}
